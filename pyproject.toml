@@ -1,0 +1,13 @@
+[project]
+name = "solsysgen"
+version = "0.0.1"
+description = "My Solar System Generator."
+requires-python = ">=3.10"
+dependencies = ["h5py"]
+authors = [
+    {name = "Zahra Karimi", email = "zahra_karimi2@outlook.com"},
+]
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"

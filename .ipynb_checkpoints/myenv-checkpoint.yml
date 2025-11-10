@@ -1,0 +1,28 @@
+name: my-env
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numpy
+  - scipy
+  - h5py
+  - matplotlib
+  - git
+  - jupyterlab
+  - ipympl
+  - ipywidgets
+  - flake8
+  - ruff
+  - yapf
+  - toml
+  - pytest
+  - pip
+  - setuptools
+  - wheel
+  - ninja
+  - scikit-build
+  - pybind11-global
+  - nanobind
+  - clang-format
+  - cmake
+  - cxx-compiler
