@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "molecule_project"
+version = "0.1.0"
+description = "Molecule manipulation and visualization package"
+authors = [{name="Your Name"}]
+dependencies = ["numpy", "py3Dmol", "h5py"]
+
